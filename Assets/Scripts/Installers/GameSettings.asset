@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 973b21751f1b7a34ca062fe924446490, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  level:
+  - time: 30
+    Items:
+    - caption: Object1
+      pic: {fileID: 21300000, guid: 5b564f23c71824e41840116de454ef31, type: 3}
+    - caption: Object2
+      pic: {fileID: 21300000, guid: 982f62d55d2f45e4fa8d10e417d1b208, type: 3}
+    - caption: Object3
+      pic: {fileID: 21300000, guid: f37432c24c232c440acba5ccbe4c0f5e, type: 3}
+    Answers:
+    - pos: {x: 0, y: -1.5, z: 0}
+      pic: {fileID: 21300000, guid: 5b564f23c71824e41840116de454ef31, type: 3}
+    - pos: {x: 3.7, y: 2.2, z: 0}
+      pic: {fileID: 21300000, guid: 982f62d55d2f45e4fa8d10e417d1b208, type: 3}
+    - pos: {x: -4, y: -3, z: 0}
+      pic: {fileID: 21300000, guid: f37432c24c232c440acba5ccbe4c0f5e, type: 3}
+  item: {fileID: 8217325310472942105, guid: 58620933d9cb01641af6b65febcc889e, type: 3}
+  Answer: {fileID: 8994993298967419421, guid: 24ced2b7133c61149ac8ac0af9ab63a1, type: 3}
+  Fx: {fileID: 101130, guid: a8d404507760f03429b3afa9f0edda88, type: 3}
+  BGcolor: {r: 0.6226415, g: 0.6226415, b: 0.6226415, a: 1}
